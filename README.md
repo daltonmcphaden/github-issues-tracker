@@ -33,8 +33,20 @@ A TypeScript CLI application for tracking completed GitHub tickets.
 
 ## Usage
 
-To start the CLI application:
+1. To start the CLI application:
 
 ```bash
 npm run dev
 ```
+
+2. Follow the on-screen prompts to categorize your closed issues. You can stop at any point and your progress will be saved.
+
+## Dependencies
+- [**axios**](https://github.com/axios/axios) for making HTTP requests.
+- [dotenv](https://github.com/motdotla/dotenv) for loading environment variables.
+- [inquirer](https://github.com/SBoudrias/Inquirer.js) for interactive CLI interface.
+- [lowdb](https://github.com/typicode/lowdb) for lightweight local database.
+
+
+## Contributing
+Feel free to submit pull requests.
