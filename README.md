@@ -1,10 +1,10 @@
 # GitHub Issues Tracker
 
-A TypeScript CLI application that fetches GitHub issues assigned to you that are closed and allows you to categorize them.
+A TypeScript CLI application for tracking completed GitHub tickets.
 
 ## Features
 
-- Fetches closed GitHub issues assigned to you.
+- Fetches closed GitHub issues assigned to you since Jan 1 2023.
 - Interactive CLI interface to categorize each issue as "backend", "frontend", "devops", etc.
 - Provides a summary of how many of each type of ticket you've completed.
 
