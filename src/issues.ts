@@ -1,6 +1,5 @@
-// fetch github issues and compare them against what is already stored in the database
 import axios from "axios"
-import { StoredGithubIssue, RawGithubIssue } from "./models"
+import { RawGithubIssue } from "./models"
 
 export async function fetchGithubIssues() {
   const rawGithubIssues: RawGithubIssue[] = []
